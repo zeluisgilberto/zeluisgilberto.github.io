@@ -1,0 +1,215 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>José Luis Gilberto | CX & Growth Leader</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #0f172a;
+    color: #f1f5f9;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    padding: 100px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+header p {
+    font-size: 20px;
+    color: #94a3b8;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: #2563eb;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #334155;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card p {
+    color: #cbd5e1;
+    font-size: 15px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <h1>José Luis Gilberto</h1>
+        <p>Customer Experience | Growth Strategy | Business Transformation</p>
+        <a class="button" href="https://www.linkedin.com/in/joseluisgilberto/" target="_blank">Ver Perfil en LinkedIn</a>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Perfil Ejecutivo</h2>
+        <p style="text-align:center; max-width:800px; margin:auto;">
+        Líder estratégico con más de 15 años impulsando transformación de Customer Experience,
+        crecimiento comercial y optimización operacional en compañías multinacionales.
+        Experiencia liderando equipos regionales, desarrollando modelos omnicanal y escalando
+        estrategias centradas en el cliente con impacto medible en NPS, revenue y eficiencia.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Experiencia Destacada</h2>
+        <div class="grid">
+
+            <div class="card">
+                <h3>Walt Disney Company</h3>
+                <p>
+                Liderazgo en estrategia regional de experiencia cliente y optimización de journey.
+                Implementación de iniciativas que impactaron KPIs de satisfacción y eficiencia operacional.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Fox Networks Group LATAM</h3>
+                <p>
+                Desarrollo e implementación de estrategia CX regional,
+                alineando operaciones, tecnología y negocio para mejorar métricas
+                de retención y performance comercial.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Verisure</h3>
+                <p>
+                Optimización de procesos comerciales y experiencia cliente,
+                impulsando crecimiento sostenible y eficiencia en adquisición.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>VTR</h3>
+                <p>
+                Gestión de experiencia cliente y mejora de procesos,
+                con foco en reducción de churn y mejora de indicadores de satisfacción.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Especialidades</h2>
+        <div class="grid">
+
+            <div class="card">
+                <h3>Customer Experience</h3>
+                <p>Diseño e implementación de estrategias centradas en el cliente.</p>
+            </div>
+
+            <div class="card">
+                <h3>Growth & Revenue</h3>
+                <p>Modelos de expansión, optimización comercial y monetización.</p>
+            </div>
+
+            <div class="card">
+                <h3>Transformación Digital</h3>
+                <p>Integración de tecnología, data y automatización en procesos de negocio.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        © 2026 José Luis Gilberto | 
+        <a href="https://www.linkedin.com/in/joseluisgilberto/" target="_blank">LinkedIn</a>
+    </div>
+</footer>
+
+</body>
+</html>
